@@ -94,3 +94,125 @@ body{
 		margin-top: 10px;
 		display: none;
 	}
+
+	/* Mobile Responsiveness */
+@media (max-width: 768px) {
+	.card {
+		width: 90%;
+		padding: 25px;
+		max-width: 400px;
+	}
+
+	.weather h1 {
+		font-size: 60px;  /* Smaller font size for temperature */
+	}
+
+	.weather h2 {
+		font-size: 35px;  /* Smaller font size for city */
+	}
+
+	.details {
+		flex-direction: column;
+		padding: 0 15px;
+	}
+
+	.col {
+		width: 100%;
+		justify-content: center;
+		margin-top: 10px;
+	}
+
+	.col img {
+		width: 30px;
+		margin-right: 8px;
+	}
+
+	.humidity,
+	.wind {
+		font-size: 22px;  /* Smaller font size for humidity and wind */
+	}
+
+	.weather-icon {
+		width: 120px;  /* Smaller weather icon */
+	}
+
+	.search input {
+		font-size: 16px;
+		height: 50px;
+		padding: 8px 20px;
+	}
+
+	.search button {
+		width: 50px;
+		height: 50px;
+	}
+
+	.search button img {
+		width: 20px;
+	}
+
+	.error {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 480px) {
+	.card {
+		width: 90%;
+		max-width: 350px;
+		padding: 20px;
+	}
+
+	.weather h1 {
+		font-size: 50px;  /* Further reduce font size for temperature */
+	}
+
+	.weather h2 {
+		font-size: 30px;  /* Further reduce font size for city */
+	}
+
+	.details {
+		flex-direction: column;
+		padding: 0 10px;
+		margin-top: 20px;
+	}
+
+	.col {
+		width: 100%;
+		justify-content: center;
+		margin-top: 8px;
+	}
+
+	.col img {
+		width: 25px;
+		margin-right: 6px;
+	}
+
+	.humidity,
+	.wind {
+		font-size: 18px;  /* Further reduce font size for humidity and wind */
+	}
+
+	.weather-icon {
+		width: 100px;  /* Further reduce weather icon size */
+	}
+
+	.search input {
+		font-size: 14px;
+		height: 45px;
+		padding: 6px 15px;
+	}
+
+	.search button {
+		width: 45px;
+		height: 45px;
+	}
+
+	.search button img {
+		width: 18px;
+	}
+
+	.error {
+		font-size: 10px;  /* Further reduce error font size */
+	}
+}
